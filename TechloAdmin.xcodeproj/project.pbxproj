@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7061036BB94FFA34BA1FE130 /* Pods_TechloAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0760C5505DBFFEFFD6CB0B58 /* Pods_TechloAdmin.framework */; };
+		8718334321DC36A20080FFCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8718334221DC36A20080FFCC /* AppDelegate.swift */; };
+		8718334A21DC36A50080FFCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8718334921DC36A50080FFCC /* Assets.xcassets */; };
+		8718334D21DC36A50080FFCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8718334B21DC36A50080FFCC /* LaunchScreen.storyboard */; };
+		8718335C21DC3B470080FFCC /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8718335B21DC3B470080FFCC /* Appointment.swift */; };
+		8718336821DC3EAE0080FFCC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8718336721DC3EAE0080FFCC /* User.swift */; };
+		8718336F21DC3F530080FFCC /* UICollectionViewCell+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8718336921DC3F530080FFCC /* UICollectionViewCell+Helper.swift */; };
+		8718337021DC3F530080FFCC /* UIAlertController+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8718336A21DC3F530080FFCC /* UIAlertController+Helper.swift */; };
+		8718337121DC3F530080FFCC /* UIColor+Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8718336B21DC3F530080FFCC /* UIColor+Palette.swift */; };
+		8718337221DC3F530080FFCC /* FirebaseExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8718336C21DC3F530080FFCC /* FirebaseExtensions.swift */; };
+		8718337321DC3F530080FFCC /* UIView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8718336D21DC3F530080FFCC /* UIView+Helper.swift */; };
+		8718337421DC3F530080FFCC /* UIViewController+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8718336E21DC3F530080FFCC /* UIViewController+Helper.swift */; };
+		8718337621DC3F930080FFCC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8718337521DC3F930080FFCC /* Default-568h@2x.png */; };
+		8749F26021DD94A100DEA227 /* AddPhotoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8749F25F21DD94A100DEA227 /* AddPhotoButton.swift */; };
+		8765F97D2312EA05009C15C4 /* FlexButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8765F97C2312EA05009C15C4 /* FlexButton.swift */; };
+		8765F97F2312EA7E009C15C4 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8765F97E2312EA7E009C15C4 /* VideoViewController.swift */; };
+		8765F9812312EFEA009C15C4 /* CalendarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8765F9802312EFEA009C15C4 /* CalendarController.swift */; };
+		8765F9832312F8EA009C15C4 /* DayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8765F9822312F8EA009C15C4 /* DayController.swift */; };
+		878A083B21EE617000777206 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A083A21EE617000777206 /* Date+Extensions.swift */; };
+		878A084121EE724300777206 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A083D21EE724300777206 /* LoginController.swift */; };
+		878A084221EE724300777206 /* NewForgotPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A083E21EE724300777206 /* NewForgotPasswordController.swift */; };
+		878A084321EE724300777206 /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A083F21EE724300777206 /* WelcomeController.swift */; };
+		878A084421EE724300777206 /* NewSignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A084021EE724300777206 /* NewSignupController.swift */; };
+		878A084621EE72C200777206 /* StartupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A084521EE72C200777206 /* StartupController.swift */; };
+		878A084921EE942700777206 /* AppointmentDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A084721EE942700777206 /* AppointmentDetailsController.swift */; };
+		878A085321EEA4BA00777206 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A085221EEA4BA00777206 /* ColorModel.swift */; };
+		878A085821EEA8B300777206 /* AppointmentPreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A085721EEA8B300777206 /* AppointmentPreviewCell.swift */; };
+		878A085A21EEA93100777206 /* AddNotesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A085921EEA93100777206 /* AddNotesController.swift */; };
+		878A085C21EEB53000777206 /* ChargeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A085B21EEB53000777206 /* ChargeController.swift */; };
+		878A085E21EEF5B700777206 /* QuoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A085D21EEF5B700777206 /* QuoteController.swift */; };
+		878A086621F7B80000777206 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A086521F7B80000777206 /* ViewController.swift */; };
+		878A086A21F80EA100777206 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 878A086921F80EA000777206 /* GoogleService-Info.plist */; };
+		878A310821E05323006277AB /* UIColor+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A310521E05322006277AB /* UIColor+Helper.swift */; };
+		878A310921E05323006277AB /* PassThroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A310621E05322006277AB /* PassThroughView.swift */; };
+		878A310A21E05323006277AB /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A310721E05323006277AB /* CustomImageView.swift */; };
+		878A311A21E0714E006277AB /* UINavigationController+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A311921E0714E006277AB /* UINavigationController+Helper.swift */; };
+		878A313321E1B584006277AB /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A312C21E1B584006277AB /* UITextFieldX.swift */; };
+		878A313421E1B584006277AB /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A312D21E1B584006277AB /* UIViewX.swift */; };
+		878A313521E1B584006277AB /* UILabelX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A312E21E1B584006277AB /* UILabelX.swift */; };
+		878A313621E1B584006277AB /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A312F21E1B584006277AB /* Global.swift */; };
+		878A313721E1B584006277AB /* UIImageViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A313021E1B584006277AB /* UIImageViewX.swift */; };
+		878A313821E1B584006277AB /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A313121E1B584006277AB /* UIButtonX.swift */; };
+		878A313921E1B584006277AB /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A313221E1B584006277AB /* CollectionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0760C5505DBFFEFFD6CB0B58 /* Pods_TechloAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TechloAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE9AB3F6D6AC2023C9D7BD4 /* Pods-TechloAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechloAdmin.release.xcconfig"; path = "Pods/Target Support Files/Pods-TechloAdmin/Pods-TechloAdmin.release.xcconfig"; sourceTree = "<group>"; };
+		8718333F21DC36A20080FFCC /* TechloAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechloAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8718334221DC36A20080FFCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8718334921DC36A50080FFCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8718334C21DC36A50080FFCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8718334E21DC36A50080FFCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8718335B21DC3B470080FFCC /* Appointment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		8718336721DC3EAE0080FFCC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8718336921DC3F530080FFCC /* UICollectionViewCell+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Helper.swift"; sourceTree = "<group>"; };
+		8718336A21DC3F530080FFCC /* UIAlertController+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Helper.swift"; sourceTree = "<group>"; };
+		8718336B21DC3F530080FFCC /* UIColor+Palette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Palette.swift"; sourceTree = "<group>"; };
+		8718336C21DC3F530080FFCC /* FirebaseExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseExtensions.swift; sourceTree = "<group>"; };
+		8718336D21DC3F530080FFCC /* UIView+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Helper.swift"; sourceTree = "<group>"; };
+		8718336E21DC3F530080FFCC /* UIViewController+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Helper.swift"; sourceTree = "<group>"; };
+		8718337521DC3F930080FFCC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8749F25F21DD94A100DEA227 /* AddPhotoButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPhotoButton.swift; sourceTree = "<group>"; };
+		8765F97C2312EA05009C15C4 /* FlexButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexButton.swift; path = TechloAdmin/View/FlexButton.swift; sourceTree = SOURCE_ROOT; };
+		8765F97E2312EA7E009C15C4 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		8765F9802312EFEA009C15C4 /* CalendarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarController.swift; sourceTree = "<group>"; };
+		8765F9822312F8EA009C15C4 /* DayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayController.swift; sourceTree = "<group>"; };
+		8770A8FD230FD5EC009B655B /* TechloAdmin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TechloAdmin-Bridging-Header.h"; sourceTree = "<group>"; };
+		878A083A21EE617000777206 /* Date+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Date+Extensions.swift"; path = "../../../Techlo/Techlo/Extensions/Date+Extensions.swift"; sourceTree = "<group>"; };
+		878A083D21EE724300777206 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginController.swift; path = "New Startup/LoginController.swift"; sourceTree = "<group>"; };
+		878A083E21EE724300777206 /* NewForgotPasswordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewForgotPasswordController.swift; path = "New Startup/NewForgotPasswordController.swift"; sourceTree = "<group>"; };
+		878A083F21EE724300777206 /* WelcomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomeController.swift; path = "New Startup/WelcomeController.swift"; sourceTree = "<group>"; };
+		878A084021EE724300777206 /* NewSignupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewSignupController.swift; path = "New Startup/NewSignupController.swift"; sourceTree = "<group>"; };
+		878A084521EE72C200777206 /* StartupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StartupController.swift; path = "New Startup/StartupController.swift"; sourceTree = "<group>"; };
+		878A084721EE942700777206 /* AppointmentDetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentDetailsController.swift; sourceTree = "<group>"; };
+		878A084F21EE99AD00777206 /* TechloAdmin.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = TechloAdmin.entitlements; sourceTree = "<group>"; };
+		878A085221EEA4BA00777206 /* ColorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorModel.swift; path = ../../../Techlo/Techlo/Other/ColorModel.swift; sourceTree = "<group>"; };
+		878A085721EEA8B300777206 /* AppointmentPreviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentPreviewCell.swift; sourceTree = "<group>"; };
+		878A085921EEA93100777206 /* AddNotesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNotesController.swift; sourceTree = "<group>"; };
+		878A085B21EEB53000777206 /* ChargeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargeController.swift; sourceTree = "<group>"; };
+		878A085D21EEF5B700777206 /* QuoteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteController.swift; sourceTree = "<group>"; };
+		878A086521F7B80000777206 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = TechloAdmin/Controllers/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		878A086921F80EA000777206 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		878A310521E05322006277AB /* UIColor+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Helper.swift"; sourceTree = "<group>"; };
+		878A310621E05322006277AB /* PassThroughView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassThroughView.swift; sourceTree = "<group>"; };
+		878A310721E05323006277AB /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		878A311921E0714E006277AB /* UINavigationController+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Helper.swift"; sourceTree = "<group>"; };
+		878A312C21E1B584006277AB /* UITextFieldX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UITextFieldX.swift; path = TechloAdmin/View/UITextFieldX.swift; sourceTree = SOURCE_ROOT; };
+		878A312D21E1B584006277AB /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewX.swift; path = TechloAdmin/View/UIViewX.swift; sourceTree = SOURCE_ROOT; };
+		878A312E21E1B584006277AB /* UILabelX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UILabelX.swift; path = TechloAdmin/View/UILabelX.swift; sourceTree = SOURCE_ROOT; };
+		878A312F21E1B584006277AB /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Global.swift; path = TechloAdmin/Other/Global.swift; sourceTree = SOURCE_ROOT; };
+		878A313021E1B584006277AB /* UIImageViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImageViewX.swift; path = TechloAdmin/View/UIImageViewX.swift; sourceTree = SOURCE_ROOT; };
+		878A313121E1B584006277AB /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIButtonX.swift; path = TechloAdmin/View/UIButtonX.swift; sourceTree = SOURCE_ROOT; };
+		878A313221E1B584006277AB /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewController.swift; path = TechloAdmin/Controllers/CollectionViewController.swift; sourceTree = SOURCE_ROOT; };
+		CC06E037BD739735874E86C1 /* Pods-TechloAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechloAdmin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TechloAdmin/Pods-TechloAdmin.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8718333C21DC36A20080FFCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7061036BB94FFA34BA1FE130 /* Pods_TechloAdmin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5470156BB6713B78AFC28838 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0760C5505DBFFEFFD6CB0B58 /* Pods_TechloAdmin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		744DE3FBFC1F8E28C19A8C15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC06E037BD739735874E86C1 /* Pods-TechloAdmin.debug.xcconfig */,
+				5BE9AB3F6D6AC2023C9D7BD4 /* Pods-TechloAdmin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8718333621DC36A20080FFCC = {
+			isa = PBXGroup;
+			children = (
+				8718337521DC3F930080FFCC /* Default-568h@2x.png */,
+				8718334121DC36A20080FFCC /* TechloAdmin */,
+				878A084F21EE99AD00777206 /* TechloAdmin.entitlements */,
+				8770A8FD230FD5EC009B655B /* TechloAdmin-Bridging-Header.h */,
+				8718334021DC36A20080FFCC /* Products */,
+				744DE3FBFC1F8E28C19A8C15 /* Pods */,
+				5470156BB6713B78AFC28838 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8718334021DC36A20080FFCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8718333F21DC36A20080FFCC /* TechloAdmin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8718334121DC36A20080FFCC /* TechloAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				8770A8FC230FD16B009B655B /* View */,
+				878A085421EEA52500777206 /* Controllers */,
+				878A310221E04FF3006277AB /* Model */,
+				8718336621DC3E500080FFCC /* Extensions */,
+				878A312B21E1B54A006277AB /* Other */,
+				8718335F21DC3C3F0080FFCC /* Info */,
+			);
+			path = TechloAdmin;
+			sourceTree = "<group>";
+		};
+		8718335F21DC3C3F0080FFCC /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				878A086921F80EA000777206 /* GoogleService-Info.plist */,
+				8718334221DC36A20080FFCC /* AppDelegate.swift */,
+				8718334921DC36A50080FFCC /* Assets.xcassets */,
+				8718334B21DC36A50080FFCC /* LaunchScreen.storyboard */,
+				8718334E21DC36A50080FFCC /* Info.plist */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		8718336621DC3E500080FFCC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				878A083A21EE617000777206 /* Date+Extensions.swift */,
+				878A311921E0714E006277AB /* UINavigationController+Helper.swift */,
+				878A310721E05323006277AB /* CustomImageView.swift */,
+				878A310621E05322006277AB /* PassThroughView.swift */,
+				878A310521E05322006277AB /* UIColor+Helper.swift */,
+				8718336C21DC3F530080FFCC /* FirebaseExtensions.swift */,
+				8718336A21DC3F530080FFCC /* UIAlertController+Helper.swift */,
+				8718336921DC3F530080FFCC /* UICollectionViewCell+Helper.swift */,
+				8718336B21DC3F530080FFCC /* UIColor+Palette.swift */,
+				8718336D21DC3F530080FFCC /* UIView+Helper.swift */,
+				8718336E21DC3F530080FFCC /* UIViewController+Helper.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8770A8FC230FD16B009B655B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8765F97C2312EA05009C15C4 /* FlexButton.swift */,
+				878A313121E1B584006277AB /* UIButtonX.swift */,
+				878A313021E1B584006277AB /* UIImageViewX.swift */,
+				878A312E21E1B584006277AB /* UILabelX.swift */,
+				878A312C21E1B584006277AB /* UITextFieldX.swift */,
+				878A312D21E1B584006277AB /* UIViewX.swift */,
+				8749F25F21DD94A100DEA227 /* AddPhotoButton.swift */,
+				878A085721EEA8B300777206 /* AppointmentPreviewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		878A085421EEA52500777206 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				878A310021E04FCE006277AB /* Specialist */,
+				878A084721EE942700777206 /* AppointmentDetailsController.swift */,
+				878A085921EEA93100777206 /* AddNotesController.swift */,
+				8765F9802312EFEA009C15C4 /* CalendarController.swift */,
+				878A085B21EEB53000777206 /* ChargeController.swift */,
+				878A085D21EEF5B700777206 /* QuoteController.swift */,
+				878A313221E1B584006277AB /* CollectionViewController.swift */,
+				8765F97E2312EA7E009C15C4 /* VideoViewController.swift */,
+				878A086521F7B80000777206 /* ViewController.swift */,
+				8765F9822312F8EA009C15C4 /* DayController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		878A310021E04FCE006277AB /* Specialist */ = {
+			isa = PBXGroup;
+			children = (
+				878A084521EE72C200777206 /* StartupController.swift */,
+				878A083D21EE724300777206 /* LoginController.swift */,
+				878A083E21EE724300777206 /* NewForgotPasswordController.swift */,
+				878A084021EE724300777206 /* NewSignupController.swift */,
+				878A083F21EE724300777206 /* WelcomeController.swift */,
+			);
+			path = Specialist;
+			sourceTree = "<group>";
+		};
+		878A310221E04FF3006277AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8718335B21DC3B470080FFCC /* Appointment.swift */,
+				8718336721DC3EAE0080FFCC /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		878A312B21E1B54A006277AB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				878A085221EEA4BA00777206 /* ColorModel.swift */,
+				878A312F21E1B584006277AB /* Global.swift */,
+			);
+			name = Other;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8718333E21DC36A20080FFCC /* TechloAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8718335121DC36A50080FFCC /* Build configuration list for PBXNativeTarget "TechloAdmin" */;
+			buildPhases = (
+				7A366503A168C2F7CD724F31 /* [CP] Check Pods Manifest.lock */,
+				8718333B21DC36A20080FFCC /* Sources */,
+				8718333C21DC36A20080FFCC /* Frameworks */,
+				8718333D21DC36A20080FFCC /* Resources */,
+				7E18CD04952BC778896925E4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TechloAdmin;
+			productName = TechloAdmin;
+			productReference = 8718333F21DC36A20080FFCC /* TechloAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8718333721DC36A20080FFCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = LaplancheApps;
+				TargetAttributes = {
+					8718333E21DC36A20080FFCC = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 8718333A21DC36A20080FFCC /* Build configuration list for PBXProject "TechloAdmin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8718333621DC36A20080FFCC;
+			productRefGroup = 8718334021DC36A20080FFCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8718333E21DC36A20080FFCC /* TechloAdmin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8718333D21DC36A20080FFCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8718334D21DC36A50080FFCC /* LaunchScreen.storyboard in Resources */,
+				878A086A21F80EA100777206 /* GoogleService-Info.plist in Resources */,
+				8718337621DC3F930080FFCC /* Default-568h@2x.png in Resources */,
+				8718334A21DC36A50080FFCC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A366503A168C2F7CD724F31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TechloAdmin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E18CD04952BC778896925E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TechloAdmin/Pods-TechloAdmin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TechloAdmin/Pods-TechloAdmin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TechloAdmin/Pods-TechloAdmin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8718333B21DC36A20080FFCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8765F97D2312EA05009C15C4 /* FlexButton.swift in Sources */,
+				8765F9812312EFEA009C15C4 /* CalendarController.swift in Sources */,
+				878A085E21EEF5B700777206 /* QuoteController.swift in Sources */,
+				8765F9832312F8EA009C15C4 /* DayController.swift in Sources */,
+				878A084121EE724300777206 /* LoginController.swift in Sources */,
+				878A313421E1B584006277AB /* UIViewX.swift in Sources */,
+				878A310921E05323006277AB /* PassThroughView.swift in Sources */,
+				878A313921E1B584006277AB /* CollectionViewController.swift in Sources */,
+				878A084921EE942700777206 /* AppointmentDetailsController.swift in Sources */,
+				8718334321DC36A20080FFCC /* AppDelegate.swift in Sources */,
+				878A084421EE724300777206 /* NewSignupController.swift in Sources */,
+				878A085321EEA4BA00777206 /* ColorModel.swift in Sources */,
+				878A085821EEA8B300777206 /* AppointmentPreviewCell.swift in Sources */,
+				878A085A21EEA93100777206 /* AddNotesController.swift in Sources */,
+				878A086621F7B80000777206 /* ViewController.swift in Sources */,
+				878A310821E05323006277AB /* UIColor+Helper.swift in Sources */,
+				878A083B21EE617000777206 /* Date+Extensions.swift in Sources */,
+				878A084221EE724300777206 /* NewForgotPasswordController.swift in Sources */,
+				878A313321E1B584006277AB /* UITextFieldX.swift in Sources */,
+				8749F26021DD94A100DEA227 /* AddPhotoButton.swift in Sources */,
+				878A311A21E0714E006277AB /* UINavigationController+Helper.swift in Sources */,
+				878A084321EE724300777206 /* WelcomeController.swift in Sources */,
+				8718337421DC3F530080FFCC /* UIViewController+Helper.swift in Sources */,
+				8718337221DC3F530080FFCC /* FirebaseExtensions.swift in Sources */,
+				878A313521E1B584006277AB /* UILabelX.swift in Sources */,
+				878A085C21EEB53000777206 /* ChargeController.swift in Sources */,
+				8718337021DC3F530080FFCC /* UIAlertController+Helper.swift in Sources */,
+				878A313721E1B584006277AB /* UIImageViewX.swift in Sources */,
+				8718336821DC3EAE0080FFCC /* User.swift in Sources */,
+				878A313621E1B584006277AB /* Global.swift in Sources */,
+				8718336F21DC3F530080FFCC /* UICollectionViewCell+Helper.swift in Sources */,
+				8718337321DC3F530080FFCC /* UIView+Helper.swift in Sources */,
+				8765F97F2312EA7E009C15C4 /* VideoViewController.swift in Sources */,
+				878A084621EE72C200777206 /* StartupController.swift in Sources */,
+				878A313821E1B584006277AB /* UIButtonX.swift in Sources */,
+				8718337121DC3F530080FFCC /* UIColor+Palette.swift in Sources */,
+				8718335C21DC3B470080FFCC /* Appointment.swift in Sources */,
+				878A310A21E05323006277AB /* CustomImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8718334B21DC36A50080FFCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8718334C21DC36A50080FFCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8718334F21DC36A50080FFCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Flaplanche/Documents/Workspaces/iOS Workspace/TechloAdmin/TechloAdmin-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+			};
+			name = Debug;
+		};
+		8718335021DC36A50080FFCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Flaplanche/Documents/Workspaces/iOS Workspace/TechloAdmin/TechloAdmin-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8718335221DC36A50080FFCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC06E037BD739735874E86C1 /* Pods-TechloAdmin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "/Users/Flaplanche/Documents/Workspaces/iOS Workspace/TechloAdmin/TechloAdmin.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9VM3PL5X9Z;
+				INFOPLIST_FILE = "$(SRCROOT)/TechloAdmin/Info/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LaplancheApps.TechloAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Flaplanche/Documents/Workspaces/iOS Workspace/TechloAdmin/TechloAdmin-Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8718335321DC36A50080FFCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BE9AB3F6D6AC2023C9D7BD4 /* Pods-TechloAdmin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "/Users/Flaplanche/Documents/Workspaces/iOS Workspace/TechloAdmin/TechloAdmin.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9VM3PL5X9Z;
+				INFOPLIST_FILE = "$(SRCROOT)/TechloAdmin/Info/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LaplancheApps.TechloAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Flaplanche/Documents/Workspaces/iOS Workspace/TechloAdmin/TechloAdmin-Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8718333A21DC36A20080FFCC /* Build configuration list for PBXProject "TechloAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8718334F21DC36A50080FFCC /* Debug */,
+				8718335021DC36A50080FFCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8718335121DC36A50080FFCC /* Build configuration list for PBXNativeTarget "TechloAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8718335221DC36A50080FFCC /* Debug */,
+				8718335321DC36A50080FFCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8718333721DC36A20080FFCC /* Project object */;
+}
