@@ -9,18 +9,18 @@ firebase-debug.log*
 # Firebase cache
 .firebase/
 firebase.json
-functions/node_modules/
+/functions/node_modules
 
-node_modules/
+/node_modules
 
-
+/Extras
+/Pods
 aps.cer
-TechloAdminAPN.p12
-TechAdminDev.p12
+TecloAdminAPN.p12
+TechloAdminDev.p12
 aps_development.cer
 aps.cer
 CertificateSigningRequest.certSigningRequest
-
 
 # Firebase config
 
